@@ -1,0 +1,78 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.all{
+    position: relative;
+    width: 100%;
+    background-image: url(../img/back.png);
+    background-size:cover;
+}
+.content{
+    width: 100%;
+    height: 92%;
+    overflow: auto;
+}
+.menu{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 8%;
+    background-image: url(../img/menu.jpg);
+    background-size:100% 98%;
+}
+.menu .menu_term{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.content .head{
+    width: 100%;
+    height: 9%;
+    background-image: url(../img/back.png);
+    background-size: cover;
+}
+.content .head .return{
+    width: 15%;
+    height: 100%;
+    float: left;
+    background-image: url(../img/return.png);
+    background-size: cover;
+}
+.content .head .title{
+    width: 70%;
+    height: 100%;
+    float: left;
+    font-size:5.5vw;
+    line-height: 7vh;
+}
+.content .head .search1{
+    width: 15%;
+    height: 100%;
+    float: left;
+    background-image: url(../img/search.png);
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content .content_term{
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    margin-top: 10%;
+
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    font-size:13px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-size:13px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-size:13px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    font-size:13px;
+}

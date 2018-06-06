@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,initial-scale=1.0,width=device-width" />
+    <title>Title</title>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/slide.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/swiper.min.js"></script>
+    <link rel="stylesheet" href="css/menu1.css">
+</head>
+<body>
+<div class="all">
+    <div class="content">
+        <div class="head">
+        <div class="saoyisao"><img src="img/saoyisao.png" width="100%"> </div>
+            <div class="search">
+                <img src="img/search.png" width="20%"/>
+                <input class="form-control" type="text" placeholder="请输入搜索内容">
+            </div>
+
+            <div class="place"><img src="img/place.png" width="95%"/></div>
+        </div>
+        <div class="slide">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/slide.jpg" width="100%"/> </div>
+                    <div class="swiper-slide"><img src="img/slide2.png" width="100%"/></div>
+                    <div class="swiper-slide"><img src="img/slide3.png" width="100%"/></div>
+                    <div class="swiper-slide"><img src="img/slide4.png" width="100%"/></div>
+                    <div class="swiper-slide"><img src="img/slide5.png" width="100%"/></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination" style="float: left"></div>
+            </div>
+        </div>
+
+        <div class="menus2">
+            <a href="menu4.html"><div class="term"></div></a>
+            <a href="menu6.html"><div class="term"></div></a>
+            <a href="menu7.html"> <div class="term" ></div></a>
+            <a href="menu8.html"> <div class="term"></div></a>
+        </div>
+        <div class="other_content"></div>
+        <div class="content_end"></div>
+    </div>
+    <div class="menu">
+       <a href="index.html"><div class="menu_term"></div></a>
+      <a href="menu2.html">  <div class="menu_term"></div></a>
+        <a href="menu3.html"> <div class="menu_term"></div></a>
+        <a href="menu4.html"><div class="menu_term"></div></a>
+        <a href="menu5.html"> <div class="menu_term"></div></a>
+    </div>
+
+</div>
+</body>
+<script>
+    var h=($(window).height());
+    $(".all").height(h);
+
+    var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
+</html>

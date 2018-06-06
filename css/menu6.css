@@ -1,0 +1,37 @@
+.all{
+    background-image: url(../img/back.png);
+    background-size: cover;
+}
+.head .saoyisao{
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+.head .search{
+    width: 60%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+    border-bottom-style: solid;
+    border-bottom-color: #6e4e35;
+    border-width: 4px;
+}
+.head .search input{
+    width:75%;
+    margin-top: 2%;
+    height: 80%;
+    float: right;
+    background-color:#f0f0f0 ;
+}
+.head .place{
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+.content .main_content{
+    height: 91%;
+    width: 100%;
+    background-image: url(../img/menu6.png);
+    background-size: cover;
+}
